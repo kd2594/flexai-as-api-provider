@@ -338,7 +338,8 @@ worth demoing or prototyping:
 | **Skills / tools** | Extend the agent with custom skill packs (`openclaw agents add`) for FlexAI-specific workflows |
 
 
+# Deploy VertexAI Agent
 
-# Misc
+1. Click on Deploy <img width="844" height="645" alt="image" src="https://github.com/user-attachments/assets/73f4d091-e4a6-4b0b-8d7d-6ef5b2c63f75" />
 
-<img width="1584" height="452" alt="image" src="https://github.com/user-attachments/assets/3e05fc4a-2073-4103-8a8e-a2f863f199e9" />
+2. Choose FlexAI org <img width="1584" height="452" alt="image" src="https://github.com/user-attachments/assets/3e05fc4a-2073-4103-8a8e-a2f863f199e9" />
