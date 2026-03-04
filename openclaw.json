@@ -1,0 +1,80 @@
+{
+  "meta": {
+    "lastTouchedVersion": "2026.3.1",
+    "lastTouchedAt": "2026-03-03T01:23:35.484Z"
+  },
+  "wizard": {
+    "lastRunAt": "2026-03-03T01:23:35.456Z",
+    "lastRunVersion": "2026.3.1",
+    "lastRunCommand": "doctor",
+    "lastRunMode": "local"
+  },
+  "auth": {
+    "profiles": {
+      "openrouter:default": {
+        "provider": "openrouter",
+        "mode": "api_key"
+      }
+    }
+  },
+  "agents": {
+    "defaults": {
+      "model": "flexai/Qwen/Qwen2.5-7B-Instruct",
+      "models": {
+        "flexai/Qwen/Qwen2.5-7B-Instruct": {
+          "alias": "Qwen 2.5 7B (FlexAI)"
+        }
+      },
+      "compaction": {
+        "mode": "safeguard"
+      },
+      "maxConcurrent": 4,
+      "subagents": {
+        "maxConcurrent": 8
+      }
+    },
+    "list": [
+      {
+        "id": "main",
+        "model": "flexai/Qwen/Qwen2.5-7B-Instruct"
+      },
+      {
+        "id": "chatbot",
+        "name": "Chatbot",
+        "workspace": "/Users/krishnadamarla/.openclaw/workspace-chatbot",
+        "agentDir": "/Users/krishnadamarla/.openclaw/agents/chatbot/agent",
+        "model": "flexai/Qwen/Qwen2.5-7B-Instruct"
+      }
+    ]
+  },
+  "messages": {
+    "ackReactionScope": "group-mentions"
+  },
+  "commands": {
+    "native": "auto",
+    "nativeSkills": "auto",
+    "restart": true,
+    "ownerDisplay": "raw"
+  },
+  "gateway": {
+    "mode": "local",
+    "auth": {
+      "mode": "token",
+      "token": "951ea6f920570dbe822146a0df3fa03cfd185726689e0c71"
+    }
+  },
+  "tools": {
+    "byProvider": {
+      "flexai": {
+        "deny": ["*"]
+      }
+    }
+  },
+  "plugins": {
+    "entries": {
+      "qwen-portal-auth": {
+        "enabled": false
+      }
+    }
+  }
+}

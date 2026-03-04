@@ -1,0 +1,30 @@
+{
+  "providers": {
+    "flexai": {
+      "baseUrl": "${FLEXAI_BASE_URL}",
+      "api": "openai-completions",
+      "apiKey": "${FLEXAI_API_KEY}",
+      "models": [
+        {
+          "id": "Qwen/Qwen2.5-7B-Instruct",
+          "name": "Qwen 2.5 7B (FlexAI)",
+          "reasoning": false,
+          "input": [
+            "text"
+          ],
+          "cost": {
+            "input": 0,
+            "output": 0,
+            "cacheRead": 0,
+            "cacheWrite": 0
+          },
+          "contextWindow": 32768,
+          "maxTokens": 4096,
+          "compat": {
+            "supportsTools": false
+          }
+        }
+      ]
+    }
+  }
+}

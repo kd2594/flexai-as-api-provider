@@ -1,0 +1,16 @@
+{
+  "version": 1,
+  "profiles": {
+    "flexai:default": {
+      "type": "api_key",
+      "provider": "flexai",
+      "key": "${FLEXAI_API_KEY}"
+    }
+  },
+  "usageStats": {
+    "flexai:default": {
+      "lastUsed": 1772567126066,
+      "errorCount": 0
+    }
+  }
+}
