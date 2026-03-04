@@ -12,6 +12,7 @@ wired to a FlexAI inference endpoint running **Qwen 2.5 7B**.
 ### 1. OpenRouter — chat working with free models
 
 > Proof of concept using OpenRouter as the API provider (free-tier models, no paid Anthropic/OpenAI key needed).
+> Keys: https://openrouter.ai/settings/keys Models https://openrouter.ai/models 
 
 ![OpenClaw chat via OpenRouter — listing text-to-image models](assets/openrouter.png)
 
