@@ -337,3 +337,8 @@ worth demoing or prototyping:
 | **Web Control UI** | No extra setup needed — already running at `http://127.0.0.1:18789/` |
 | **Skills / tools** | Extend the agent with custom skill packs (`openclaw agents add`) for FlexAI-specific workflows |
 
+
+
+# Misc
+
+<img width="1584" height="452" alt="image" src="https://github.com/user-attachments/assets/3e05fc4a-2073-4103-8a8e-a2f863f199e9" />
