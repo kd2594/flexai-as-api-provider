@@ -29,7 +29,7 @@ wired to a FlexAI inference endpoint running **Qwen 2.5 7B**.
 
 > During `openclaw onboard`, scroll to the bottom of the provider list and select **Custom Provider** (any OpenAI-compatible endpoint). Then paste the FlexAI inference URL and API key.
 
-![OpenClaw onboarding wizard — Custom Provider selected](assets/api provider selection.png)
+![OpenClaw onboarding wizard — Custom Provider selected](assets/api_provider_selection.png)
 
 ---
 
